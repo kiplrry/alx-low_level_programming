@@ -2,7 +2,7 @@
  * Printf.c
  * Auth: Larry
  */
-#include < stdio.h >
+#include <stdio.h>
 /**
  * main - Prints the string
  *
