@@ -17,14 +17,13 @@ int letter(void)
 }
 void print_alphabet(void)
 {
-	char c;
-	for (c = 'a'; c <= 'z'; c++)
+	for (char c = 'a'; c <= 'z'; c++)
 	{
-		_putchar(c);
+		putchar(c);
 	}
-	_putchar('\n');
+	putchar('\n');
 
-	return;
+	return (0);
 }
 int _putchar(char c)
 
