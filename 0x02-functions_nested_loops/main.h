@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * main - runs main program
  *
  * Return: 0
  */
-int main(void)
+int letter(void)
 {
-	letter();
+	printf("_putchar\n");
 
 	return (0);
 }
