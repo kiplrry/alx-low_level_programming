@@ -1,16 +1,5 @@
 #include "main.h"
 /**
- * main - runs main program
- *
- * Return: 0 if noot lowercase and 1 if uppercase
- */
-int main(void)
-{
-	_islower('c');
-
-	return (0);
-}
-/**
  * _islower - checks if letter is lowercase
  * @c: the character to be checked
  * Return: 1 if successful 0 if fail
