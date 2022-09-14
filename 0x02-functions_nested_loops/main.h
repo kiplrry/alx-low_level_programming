@@ -1,34 +1,9 @@
-#include <stdio.h>
-#include <unistd.h>
+#ifndef MAIN_H
+#define MAIN_H
 /**
- * main - runs main program
- *
- * Return: 0
+ * Description: contains declaration to all functions
  */
 int _putchar(char c);
-int letter(void);
 void print_alphabet(void);
 
-int letter(void)
-{
-	printf("_putchar\n");
-
-	return (0);
-}
-void print_alphabet(void)
-{
-	for (char c = 'a'; c <= 'z'; c++)
-	{
-		putchar(c);
-	}
-	putchar('\n');
-
-	return;
-}
-int _putchar(char c)
-
-{
-
-		return (write(1, &c, 1));
-
-}
+#endif
