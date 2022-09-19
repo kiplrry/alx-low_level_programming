@@ -2,9 +2,11 @@
 /**
  * _strlen - returns the length of the string
  * @s: string to be checked
- *
+ * Return: the size of the string
  */
 int _strlen(char *s)
 {
-	return (sizeof(*s));
+	int temp = sizeof(*s);
+
+	return (temp);
 }
