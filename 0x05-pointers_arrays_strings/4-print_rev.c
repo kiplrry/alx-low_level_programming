@@ -9,6 +9,7 @@ void print_rev(char *s)
 
 	while (s[len] != '\0')
 		len++;
+	len--;
 	while (len >= 0)
 	{
 		_putchar(s[len]);
