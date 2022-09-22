@@ -7,30 +7,12 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int flen, slen, i, ret;
-
-	flen = slen = i = 0;
-	while (s1[flen])
-		flen++;
-	while (s2[slen])
-		slen++;
-	if (flen < slen)
-		flen = slen;
-	for ( ; i < flen; i++)
+	while (*s1 == *s2)
 	{
-		if (s1[i] < s2[i])
-		{
-			ret = -15;
-			break;
-		}
-		else if (s1[i] > s2[i])
-		{
-			ret = 15;
-			break;
-		}
-		else
-			ret = 0;
+		if (*s1 == '\0')
+			return (0);
+		s1++;
+		s2++;
 	}
-	return (ret);
+	return (*s1 - *s2);
 }
-
