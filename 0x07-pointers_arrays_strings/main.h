@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <stddef.h>
+unsigned int _strspn(char *s, char *accept);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 int _putchar(char c);
