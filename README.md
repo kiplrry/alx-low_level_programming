@@ -1,1 +1,1 @@
-This is  a repository for the Alx low level programmming
+0x06-pointers_arrays_strings
