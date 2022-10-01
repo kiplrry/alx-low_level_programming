@@ -13,21 +13,19 @@ int main(int argc, char *argv[])
 		int rem, total;
 		int m = atoi(argv[1]);
 
-		if (m < 0)
-			printf("0\n");
-		else
+		rem = total = 0;
+		if (m > 0)
 		{
-			rem = total = 0;
-
 			total += m / 25;
 			rem = m % 25;
 			total += rem / 10;
 			rem = rem % 10;
 			total += rem / 5;
-			total += rem % 5;
-
-			printf("%d\n", total);
+			rem = rem % 5;
+			total += rem / 2;
+			total += rem % 2;
 		}
+		printf("%d\n", total);
 	}
 	else
 	{
