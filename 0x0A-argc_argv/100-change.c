@@ -8,11 +8,11 @@
  */
 int main(int argc, char *argv[])
 {
-	if ( argc > 1)
+	if (argc == 2)
 	{
 		int rem, total;
 		int m = atoi(argv[1]);
-		
+
 		if (m < 0)
 			printf("0\n");
 		else
