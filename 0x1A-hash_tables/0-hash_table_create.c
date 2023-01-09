@@ -16,7 +16,6 @@ unsigned long int i;
 hash_table_t *newTable = (hash_table_t *) malloc(sizeof(hash_table_t));
 if (newTable == NULL)
 {
-free(newTable);
 return (NULL);
 }
 
