@@ -21,8 +21,8 @@ return (NULL);
 }
 
 newTable->size = size;
-newTable->array = ((hash_node_s **)
-calloc(newTable->size, sizeof(hash_node_s *)));
+newTable->array = ((hash_node_t **)
+calloc(newTable->size, sizeof(hash_node_t *)));
 for (i = 0; i < newTable->size; i++)
 newTable->array[i] = NULL;
 return (newTable);
